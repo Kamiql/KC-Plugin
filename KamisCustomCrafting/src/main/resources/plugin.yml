@@ -1,0 +1,11 @@
+name: KamisCustomItems
+version: '${version}'
+main: de.kamiql.customitems.Main
+api-version: '1.20'
+commands:
+  reload:
+    description: reload -> 1. /reload = Reload the Server 2. /reload config = Reload the Config 3. /reload [data] = Reload the Plugin
+    usage: /reload [data / config]
+  item:
+    description: Get an custom Item!
+    usage: /item [name]
